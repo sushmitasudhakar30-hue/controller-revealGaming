@@ -1,0 +1,16 @@
+{
+  "name": "controller-reveal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "3D product-reveal animation: glossy controller, 360° spin, HUD callouts, lightning",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "audio": "python scripts/audio.py",
+    "render": "node scripts/render.mjs"
+  },
+  "dependencies": { "three": "0.160.0" },
+  "devDependencies": { "vite": "^5.4.0", "playwright": "^1.48.0" }
+}
